@@ -29,9 +29,9 @@ distclean: clean
 install: $(OUT)
 	install -m 755 $(OUT) $(bindir)
 	[ -d $(mandir)/man1 ] || mkdir -p $(mandir)/man1
-	gzip -9c $(OUT).1 > $(mandir)/man1/$(OUT).1.gz
+	xz -9c $(OUT).1 > $(mandir)/man1/$(OUT).1.xz
 
 uninstall: $(bindir)/$(OUT)
 	rm -f $(bindir)/$(OUT)
-	rm -f $(mandir)/man1/$(OUT).1.gz
+	rm -f $(mandir)/man1/$(OUT).1.xz
 
