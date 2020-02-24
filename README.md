@@ -1,3 +1,5 @@
+THIS IS ARCHIVED.  PLEASE USE THE SUPERIOR nfbv REPOSITORY INSTEAD.
+
 ## fbv
 A framebuffer image viewer.   
 fork from `http://s-tech.elsat.net.pl/fbv/`   
